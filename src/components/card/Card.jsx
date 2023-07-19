@@ -16,7 +16,7 @@ const Card = () => {
   useEffect(() => {
     fetch("https://dummyjson.com/products/1")
       .then((response) => response.json())
-      .then((json) => setItems(json));
+      .then((json) => Array(setItems(json)));
   }, []);
 
   console.log(items);
@@ -24,7 +24,7 @@ const Card = () => {
   return (
     <>
       <div className={styles.container}>
-        <div key={index} className={styles.wrapper}>
+        <div className={styles.wrapper}>
 		<div className={styles.itemContainer}>
               <h1>{items.title}</h1>
               <img
