@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  /* border: 2px solid red; */
+  /* box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.57);
+  font-size: 2em;
+  font-weight: 700;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
